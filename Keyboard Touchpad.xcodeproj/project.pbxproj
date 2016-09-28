@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB04A4EB1D9B8D89009A848F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04A4EA1D9B8D89009A848F /* main.m */; };
+		EB04A4EE1D9B8D89009A848F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04A4ED1D9B8D89009A848F /* AppDelegate.m */; };
+		EB04A4F11D9B8D89009A848F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB04A4F01D9B8D89009A848F /* ViewController.m */; };
+		EB04A4F41D9B8D89009A848F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04A4F21D9B8D89009A848F /* Main.storyboard */; };
+		EB04A4F61D9B8D89009A848F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04A4F51D9B8D89009A848F /* Assets.xcassets */; };
+		EB04A4F91D9B8D89009A848F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04A4F71D9B8D89009A848F /* LaunchScreen.storyboard */; };
+		EB04A5021D9B902B009A848F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB04A5011D9B902B009A848F /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB04A4E61D9B8D89009A848F /* Keyboard Touchpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Touchpad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04A4EA1D9B8D89009A848F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB04A4EC1D9B8D89009A848F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB04A4ED1D9B8D89009A848F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB04A4EF1D9B8D89009A848F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB04A4F01D9B8D89009A848F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB04A4F31D9B8D89009A848F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB04A4F51D9B8D89009A848F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB04A4F81D9B8D89009A848F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB04A4FA1D9B8D89009A848F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB04A5011D9B902B009A848F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB04A4E31D9B8D89009A848F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04A5021D9B902B009A848F /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB04A4DD1D9B8D89009A848F = {
+			isa = PBXGroup;
+			children = (
+				EB04A4E81D9B8D89009A848F /* Keyboard Touchpad */,
+				EB04A4E71D9B8D89009A848F /* Products */,
+				EB04A5001D9B902A009A848F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB04A4E71D9B8D89009A848F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB04A4E61D9B8D89009A848F /* Keyboard Touchpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB04A4E81D9B8D89009A848F /* Keyboard Touchpad */ = {
+			isa = PBXGroup;
+			children = (
+				EB04A4EC1D9B8D89009A848F /* AppDelegate.h */,
+				EB04A4ED1D9B8D89009A848F /* AppDelegate.m */,
+				EB04A4EF1D9B8D89009A848F /* ViewController.h */,
+				EB04A4F01D9B8D89009A848F /* ViewController.m */,
+				EB04A4F21D9B8D89009A848F /* Main.storyboard */,
+				EB04A4F51D9B8D89009A848F /* Assets.xcassets */,
+				EB04A4F71D9B8D89009A848F /* LaunchScreen.storyboard */,
+				EB04A4FA1D9B8D89009A848F /* Info.plist */,
+				EB04A4E91D9B8D89009A848F /* Supporting Files */,
+			);
+			path = "Keyboard Touchpad";
+			sourceTree = "<group>";
+		};
+		EB04A4E91D9B8D89009A848F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB04A4EA1D9B8D89009A848F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB04A5001D9B902A009A848F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB04A5011D9B902B009A848F /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB04A4E51D9B8D89009A848F /* Keyboard Touchpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04A4FD1D9B8D89009A848F /* Build configuration list for PBXNativeTarget "Keyboard Touchpad" */;
+			buildPhases = (
+				EB04A4E21D9B8D89009A848F /* Sources */,
+				EB04A4E31D9B8D89009A848F /* Frameworks */,
+				EB04A4E41D9B8D89009A848F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Touchpad";
+			productName = "Keyboard Touchpad";
+			productReference = EB04A4E61D9B8D89009A848F /* Keyboard Touchpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB04A4DE1D9B8D89009A848F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Appmania;
+				TargetAttributes = {
+					EB04A4E51D9B8D89009A848F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LUXGV2LW69;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB04A4E11D9B8D89009A848F /* Build configuration list for PBXProject "Keyboard Touchpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB04A4DD1D9B8D89009A848F;
+			productRefGroup = EB04A4E71D9B8D89009A848F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB04A4E51D9B8D89009A848F /* Keyboard Touchpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB04A4E41D9B8D89009A848F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04A4F91D9B8D89009A848F /* LaunchScreen.storyboard in Resources */,
+				EB04A4F61D9B8D89009A848F /* Assets.xcassets in Resources */,
+				EB04A4F41D9B8D89009A848F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB04A4E21D9B8D89009A848F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04A4F11D9B8D89009A848F /* ViewController.m in Sources */,
+				EB04A4EE1D9B8D89009A848F /* AppDelegate.m in Sources */,
+				EB04A4EB1D9B8D89009A848F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB04A4F21D9B8D89009A848F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04A4F31D9B8D89009A848F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB04A4F71D9B8D89009A848F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04A4F81D9B8D89009A848F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB04A4FB1D9B8D89009A848F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB04A4FC1D9B8D89009A848F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB04A4FE1D9B8D89009A848F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUXGV2LW69;
+				INFOPLIST_FILE = "Keyboard Touchpad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmania.Keyboard-Touchpad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB04A4FF1D9B8D89009A848F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUXGV2LW69;
+				INFOPLIST_FILE = "Keyboard Touchpad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appmania.Keyboard-Touchpad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB04A4E11D9B8D89009A848F /* Build configuration list for PBXProject "Keyboard Touchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04A4FB1D9B8D89009A848F /* Debug */,
+				EB04A4FC1D9B8D89009A848F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04A4FD1D9B8D89009A848F /* Build configuration list for PBXNativeTarget "Keyboard Touchpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04A4FE1D9B8D89009A848F /* Debug */,
+				EB04A4FF1D9B8D89009A848F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB04A4DE1D9B8D89009A848F /* Project object */;
+}
