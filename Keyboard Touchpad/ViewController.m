@@ -159,7 +159,12 @@
 #pragma mark - IBAction
 
 - (IBAction)sendData {
-    [self.discoveredPeripheral writeValue:[@"Testando" dataUsingEncoding:NSUTF8StringEncoding] forCharacteristic:self.discoveredCharacteristic type:CBCharacteristicWriteWithoutResponse];
+    NSData *send = [NSJSONSerialization dataWithJSONObject:@{@"type": @"mouse", @"data": @{
+                                                                        @"x": @10,
+                                                                        @"y": @20
+                                                                     }} options:0 error:nil];
+    
+    [self.discoveredPeripheral writeValue:send forCharacteristic:self.discoveredCharacteristic type:CBCharacteristicWriteWithoutResponse];
 }
 
 - (IBAction)reloadConnection:(UIButton *)sender {
